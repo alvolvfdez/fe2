@@ -1,0 +1,18 @@
+<div{{ attributes.addClass('forcontu_umami-header') }}>
+  <div class="forcontu_umami-header__logo">
+    {% block logo %}{% endblock %}
+  </div>
+  <button
+    type="button"
+    class="forcontu_umami-header__burger"
+    aria-controls="forcontu_umami-header__dropdown"
+    aria-expanded="false"
+    aria-label="{{ 'Toggle the menu'|t }}"
+  >
+    {{ source(componentMetadata.path ~ '/icons/burger.svg') }}
+  </button>
+  <div class="forcontu_umami-header__dropdown">
+    {% block dropdown %}{% endblock %}
+  </div>
+  </div>
+</div>
