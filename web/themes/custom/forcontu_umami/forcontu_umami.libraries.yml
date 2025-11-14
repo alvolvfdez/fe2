@@ -1,6 +1,8 @@
 global:
   version: VERSION
   css:
+    style:
+      css/style.css: {}
     base:
       css/base.css: {}
     component:
