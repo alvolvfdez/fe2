@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Inline items.
+ */
+
+/* @todo revisit in https://drupal.org/node/3115710 */
+
+.container-inline {
+  div, label {
+    display: inline;
+  }
+}

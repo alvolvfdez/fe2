@@ -1,0 +1,34 @@
+/**
+ * @file
+ * This file is used to style the contact form.
+ */
+
+.contact-form {
+  max-width: 600px;
+  margin: auto auto 1rem;
+
+  .form-item-copy {
+    margin-bottom: 0;
+
+    .form-checkbox {
+      min-width: auto;
+      margin: 0 5px 0 0;
+    }
+  }
+}
+
+@media screen and (min-width: 30rem) {
+  /* 480px */
+
+  .contact-form {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  /* 960px */
+
+  .contact-form {
+    margin-bottom: 3rem;
+  }
+}

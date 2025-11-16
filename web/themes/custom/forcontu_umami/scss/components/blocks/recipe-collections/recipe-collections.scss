@@ -1,0 +1,23 @@
+.block-views-blockrecipe-collections-block {
+  padding: 3rem 4%;
+  color: #fff;
+  background: #767775;
+
+  .block__title {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .views-field-name a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    &:active, &:focus, &:hover {
+      text-decoration: underline;
+      outline-color: #fff;
+      background: transparent;
+    }
+  }
+}

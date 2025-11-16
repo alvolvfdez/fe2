@@ -1,0 +1,117 @@
+.forcontu_umami-header {
+  background-color: #1e5c90;
+}
+
+/* wrapper for recipe nodes */
+
+.recipe-custom {
+  background: #faf6f0;
+
+  /* soft tone */
+  padding: 20px;
+  border: 2px solid #e0d6c6;
+  border-radius: 8px;
+}
+
+/* recipe title */
+
+.recipe-title {
+  font-size: 2rem;
+  color: #c34e2e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* recipe body */
+
+.recipe-body {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+
+  img {
+    border-radius: 6px;
+    border: 3px solid #e5dccf;
+    margin: 10px 0;
+  }
+
+  .field--name-field-tags {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff3e8;
+    border: 1px dashed #d8a57a;
+    border-radius: 6px;
+  }
+
+  a {
+    color: #b44a22;
+    text-decoration: underline;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+/* images inside recipes */
+
+/* tags list */
+
+/* links inside recipes */
+
+/* wrapper for recipes view */
+
+.view-recipes {
+  padding: 20px;
+  background: #faf6f0;
+  border-radius: 8px;
+
+  .views-view-responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .views-row {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e5dccf;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    h2, h3 {
+      font-size: 1.3rem;
+      color: #b44a22;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    a {
+      color: #c34e2e;
+      text-decoration: underline;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+/* grid for recipe items */
+
+/* individual recipe item */
+
+/* recipe titles inside the view */
+
+/* recipe images */
+
+/* read more links */

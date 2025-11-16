@@ -1,0 +1,16 @@
+/**
+ * @file
+ * This file is used to style fields.
+ */
+
+.field--label-inline {
+  &.field {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .field__label, .field__items {
+    /* Undo use of floats by base styles, switch to flexbox */
+    float: none;
+  }
+}

@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Visual styles for toolbar.
+ *
+ * Our global styling from base.css is causing the background color of hovered
+ * <a> tags to apply to the toolbar as well. This file is used to reset that.
+ */
+
+.toolbar-item {
+  &:hover, &:focus {
+    background-color: inherit;
+  }
+}
+
+.toolbar-tray a {
+  &:hover, &:focus {
+    background-color: inherit;
+  }
+}

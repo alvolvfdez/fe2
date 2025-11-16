@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Stylesheet for the language switcher block.
+ */
+
+.block-language > .links {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li + li {
+    margin-inline-start: 1rem;
+  }
+}
+
+.language-link {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+  }
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+
+  &.is-active {
+    font-weight: 700;
+  }
+}
