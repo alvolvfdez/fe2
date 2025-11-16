@@ -51,3 +51,55 @@
 .recipe-body a:hover {
   color: #000;
 }
+
+/* wrapper for recipes view */
+.view-recipe {
+  padding: 20px;
+  background: #faf6f0;
+  border-radius: 8px;
+}
+
+/* grid for recipe items */
+.view-recipe .views-view-responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* individual recipe item */
+.view-recipe  .views-row {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e5dccf;
+  transition: transform 0.2s ease;
+}
+
+.view-recipe .views-row:hover {
+  transform: scale(1.02);
+}
+
+/* recipe titles inside the view */
+.view-recipe .views-row h2,
+.view-recipe .views-row h3 {
+  font-size: 1.3rem;
+  color: #b44a22;
+  margin-bottom: 10px;
+}
+
+/* recipe images */
+.view-recipe .views-row img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* read more links */
+.view-recipe .views-row a {
+  color: #c34e2e;
+  text-decoration: underline;
+}
+
+.view-recipe .views-row a:hover {
+  color: #000;
+}
+
