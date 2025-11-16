@@ -64,7 +64,7 @@
   set classes = [
   'node',
   'node--type-' ~ node.bundle|clean_class,
-  'node--type-' ~ node.bundle|clean_class ~ '-custom',
+  'recipe-custom',
   node.isPromoted() ? 'node--promoted',
   node.isSticky() ? 'node--sticky',
   not node.isPublished() ? 'node--unpublished',
@@ -80,7 +80,7 @@
   {% if label %}
     {% if page %}
       <header class="node__header">
-        <h1 class="page-title">
+        <h1 class="recipe-title">
           {{ label }}
         </h1>
       </header>
@@ -102,7 +102,7 @@
     </footer>
   {% endif %}
 
-  <div{{ content_attributes.addClass('node__content') }}>
+  <div{{ content_attributes.addClass('node__content', 'recipe-body') }}>
     {{ content }}
   </div>
 
