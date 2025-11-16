@@ -64,6 +64,7 @@
   set classes = [
   'node',
   'node--type-' ~ node.bundle|clean_class,
+  'node--type-' ~ node.bundle|clean_class ~ '-custom',
   node.isPromoted() ? 'node--promoted',
   node.isSticky() ? 'node--sticky',
   not node.isPublished() ? 'node--unpublished',
